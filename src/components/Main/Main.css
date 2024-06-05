@@ -1,0 +1,62 @@
+#main{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    
+}
+.bg{
+    position: absolute;
+    top: -2rem;
+    z-index: -1;
+    right: 0;
+    /* object-fit: cover; */
+    height: 100vh;
+    max-width: 750px;
+    width: 100%;
+}
+.mainContact{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.names{
+    color: yellow;
+}
+.par{
+    font-size: medium;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.btn{
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.btnImg{
+margin: 0 0.25rem;
+}
+
+@media(max-width:850px){
+    .bg{
+        right: -5vw;
+    }
+
+}
