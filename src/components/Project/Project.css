@@ -1,0 +1,9 @@
+#project{
+    padding: 5rem 3rem;
+}
+#project h1{
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 3rem 0;
+}

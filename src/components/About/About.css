@@ -1,0 +1,47 @@
+#about{
+    padding: 5rem 3rem;
+}
+#about h1{
+    text-align: center;
+    padding: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.abot_all h2{
+    margin-top: -20px;
+    height: 3rem;
+    color: yellow;
+}
+.abot_all h2 .bh{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.abot_all img{
+    max-width: 600px;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+}
+.bty{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    color: aqua;
+}
+.abot_all p{
+    max-width: 500px;
+    width: 100%;
+    margin: 1rem 0;
+    line-height: 28px;
+    font-weight: 300;
+}
+

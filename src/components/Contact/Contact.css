@@ -6,6 +6,9 @@
 }
 .text{
     text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+    
 
 }
 .contac_link{

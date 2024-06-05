@@ -16,7 +16,7 @@ const Skills = () => {
     return (
         <div>
            <section id='skills' className='container'>
-            <h1>My Skills</h1>
+            <h1 style={{fontSize:'2rem'}}>My Skills</h1>
              <div className="skills">
              <div className="skill">
                     <div className="skills_img">
