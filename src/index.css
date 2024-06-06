@@ -15,12 +15,7 @@ body {
 }
 
 body.all {
-  background-image: url('https://img.freepik.com/free-photo/view-white-crumpled-paper_1194-7544.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 600vh;
+ background-color: white;
 }
 body.all .disktopMenuList{
  color: rgb(40, 40, 40);
@@ -33,7 +28,6 @@ body.all .disktopMenuList.active{
 }
 body.all .btnButton{
   border: 1px solid  rgb(40, 40, 40) ;
-  background-color: yellow;
 }
 body.all .hello{
   color: black ;
@@ -49,7 +43,6 @@ body.all .mainContact{
 }
 body.all .btn{
   border: 1px solid  rgb(40, 40, 40) ;
-  background-color: yellow;
 }
 body.all .abot_all p{
   color: black ;
@@ -68,9 +61,13 @@ body.all .contac_link{
   font-weight: 400;
 }
 body.all .submitBtn{
-  background-color: yellow;
+  border: 1px solid  rgb(40, 40, 40) ;
+
  
 }
 body.all .link{
+  color: rgb(40, 40, 40);
+}
+body.all .logoMenu{
 color: rgb(40, 40, 40);
 }

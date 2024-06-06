@@ -87,6 +87,9 @@ width: 4rem;
 @media(max-width:650px){
     .logoMenu{
         display: flex;
+        margin-left: 70%;
+        color: yellow;
+        
     }
     .btnButton{
         display: none;
@@ -95,4 +98,13 @@ width: 4rem;
         display: none;
     }
 
+}
+
+@media(max-width:650px){
+    .logoMenu{
+        display: flex;
+        margin-left: 45%;
+        color: yellow;
+        
+    }
 }

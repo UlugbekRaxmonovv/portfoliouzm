@@ -11,7 +11,7 @@ const Project = () => {
     return (
         <div>
             <section id='project' className='container'>
-            <Link className="disktopMenuList" activeClass='active'  spy={true} smooth={true} offset={-100} duration={500}  >    <h1>Project</h1></Link>
+            <Link to='' className="disktopMenuList" activeClass='active'  spy={true} smooth={true} offset={-100} duration={500}  >    <h1>Project</h1></Link>
               <div className="project">
                   <div className="project_all">
                   <div className="all_img">

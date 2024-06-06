@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div>
             <section id='about' className='container'>
-           <Link className="disktopMenuList" activeClass='active'  spy={true} smooth={true} offset={-100} duration={500}  ><h1>About Me</h1></Link>
+           <Link to='' className="disktopMenuList" activeClass='active'  spy={true} smooth={true} offset={-100} duration={500}  ><h1>About Me</h1></Link>
               
                
              <div className="about">

@@ -18,7 +18,7 @@ const Skills = () => {
         <div>
            <section id='skills' className='container'>
            
-           <Link className="disktopMenuList" activeClass='active'  spy={true} smooth={true} offset={-100} duration={500}  > <h1 style={{fontSize:'2rem'}}>My Skills</h1> </Link>
+           <Link to='' className="disktopMenuList" activeClass='active'  spy={true} smooth={true} offset={-100} duration={500}  > <h1 style={{fontSize:'2rem'}}>My Skills</h1> </Link>
              <div className="skills">
              <div className="skill">
                     <div className="skills_img">

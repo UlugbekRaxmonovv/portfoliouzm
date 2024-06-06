@@ -38,6 +38,17 @@ const Navbar = () => {
                     <Link className="disktopMenuList" activeClass='active' to='project' spy={true} smooth={true} offset={-100} duration={500}>Portfolio</Link>
                     
                 </div>
+                
+            
+                
+                <BiMenuAltRight className='logoMenu' onClick={() => setClick(!click)} />
+                <div className="topMenu" style={{ display: click ? 'flex' : 'none' }}>
+                    <Link className="MenuList" activeClass='active' to='main' spy={true} smooth={true} offset={-100} duration={500} onClick={() => setClick(false)}>Home</Link>
+                    <Link className="MenuList" activeClass='active' to='about' spy={true} smooth={true} offset={-100} duration={500} onClick={() => setClick(false)}>About Me</Link>
+                    <Link className="MenuList" activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500} onClick={() => setClick(false)}>My Skills</Link>
+                    <Link className="MenuList" activeClass='active' to='project' spy={true} smooth={true} offset={-100} duration={500} onClick={() => setClick(false)}>Portfolio</Link>
+                    <Link className="MenuList" activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} onClick={() => setClick(false)}>Contact</Link>
+                </div>
                 <div className="btn-all">
                     <div className="btn_rw">
                     <button className="btnButton" onClick={() => {
@@ -48,23 +59,12 @@ const Navbar = () => {
                 </button>
                     </div>
                     <div className="btn_rw">
+                    <Switch style={{color:'white'}}  onClick={changeColor} {...label} defaultChecked />
                     <div>
-   
-    
-    </div>
-  <Switch  onClick={changeColor} {...label} defaultChecked />
+                    
+                    </div>
 
                     </div>
-                </div>
-            
-                
-                <BiMenuAltRight className='logoMenu' onClick={() => setClick(!click)} />
-                <div className="topMenu" style={{ display: click ? 'flex' : 'none' }}>
-                    <Link className="MenuList" activeClass='active' to='main' spy={true} smooth={true} offset={-100} duration={500} onClick={() => setClick(false)}>Home</Link>
-                    <Link className="MenuList" activeClass='active' to='about' spy={true} smooth={true} offset={-100} duration={500} onClick={() => setClick(false)}>About Me</Link>
-                    <Link className="MenuList" activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500} onClick={() => setClick(false)}>My Skills</Link>
-                    <Link className="MenuList" activeClass='active' to='project' spy={true} smooth={true} offset={-100} duration={500} onClick={() => setClick(false)}>Portfolio</Link>
-                    <Link className="MenuList" activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} onClick={() => setClick(false)}>Contact</Link>
                 </div>
             </nav>
         </div>
