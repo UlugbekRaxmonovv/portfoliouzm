@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import Switch from '@mui/material/Switch';
-
+import { IoIosArrowUp } from "react-icons/io";
 const label = { inputProps: { 'aria-label': 'Switch demo' } };
 import { VscComment } from "react-icons/vsc";
 import logo from '../../assets/img/logo.png';
@@ -9,6 +9,7 @@ import { Link } from 'react-scroll';
 import { BiMenuAltRight } from "react-icons/bi";
 
 const Navbar = () => {
+    const [toogle, setToogle] = useState(false);
     const [click, setClick] = useState(false);
     const [bgColor, setBgColor] = useState(false); // Initially false, representing the default background color
 
@@ -23,6 +24,28 @@ const Navbar = () => {
     const changeColor = () => {
         setBgColor(!bgColor);
     };
+
+
+    const toggleVisibility = () => {
+        if (window.pageYOffset > 300) {
+            setToogle(true);
+        } else {
+            setToogle(false);
+        }
+    };
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+    useEffect(() => {
+        window.addEventListener('scroll', toggleVisibility);
+        return () => {
+            window.removeEventListener('scroll', toggleVisibility);
+        };
+    }, []);
 
     return (
         <div>
@@ -67,6 +90,13 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
+            <div className="backTop">
+            {toogle && 
+                <div onClick={scrollToTop} className="backtop_button">
+                    <IoIosArrowUp />
+                </div>
+            }
+        </div>
         </div>
     );
 }
