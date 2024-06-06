@@ -91,10 +91,12 @@ const Navbar = () => {
                 </div>
             </nav>
             <div className="backTop">
-            {toogle && 
+            {toogle ?
                 <div onClick={scrollToTop} className="backtop_button">
                     <IoIosArrowUp />
                 </div>
+                :
+                ""
             }
         </div>
         </div>
