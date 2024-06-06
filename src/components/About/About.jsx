@@ -1,11 +1,14 @@
 import React from 'react';
 import './About.css'
 import rasm from '../../assets/img/about.jpg'
+import { Link } from 'react-scroll';
 const About = () => {
     return (
         <div>
             <section id='about' className='container'>
-                <h1>About Me</h1>
+           <Link className="disktopMenuList" activeClass='active'  spy={true} smooth={true} offset={-100} duration={500}  ><h1>About Me</h1></Link>
+              
+               
              <div className="about">
              <div className="abot_all">
                   <img src={rasm} alt="" />

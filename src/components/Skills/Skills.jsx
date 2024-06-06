@@ -12,11 +12,13 @@ import rasm8 from '../../assets/img/AKT.png'
 import rasm9 from '../../assets/img/mui.png'
 import rasm10 from '../../assets/img/GIT.png'
 import rasm11 from '../../assets/img/nxt.png'
+import { Link } from 'react-scroll';
 const Skills = () => {
     return (
         <div>
            <section id='skills' className='container'>
-            <h1 style={{fontSize:'2rem'}}>My Skills</h1>
+           
+           <Link className="disktopMenuList" activeClass='active'  spy={true} smooth={true} offset={-100} duration={500}  > <h1 style={{fontSize:'2rem'}}>My Skills</h1> </Link>
              <div className="skills">
              <div className="skill">
                     <div className="skills_img">

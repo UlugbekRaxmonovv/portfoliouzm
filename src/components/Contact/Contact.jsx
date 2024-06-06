@@ -1,5 +1,6 @@
 import React,{useReducer} from 'react';
 import './Contact.css'
+import { Link } from 'react-scroll';
 import { FaYoutube } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -55,7 +56,7 @@ const handelSubmit = (e) => {
     return (
         <div>
            <section id='contact'>
-            <h1 className='text'>Contact Me</h1>
+           <Link className="disktopMenuList" activeClass='active'  spy={true} smooth={true} offset={-100} duration={500}  >  <h1 className='text'>Contact Me</h1></Link>
             <p className="contac_link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nihil harum <br /> reiciendis officiis, est perspiciatis.</p>
             <form action="" className="contacForm container "  onSubmit={handelSubmit}>
             <input
@@ -75,7 +76,7 @@ const handelSubmit = (e) => {
            </button>
            <div className="links">
            <FaInstagramSquare  className='link'/>
-           <PiPaperPlaneTiltFill  className='link'/>
+           <a href="https://t.me/Mumusliim"><PiPaperPlaneTiltFill  className='link'/></a>
            <FaFacebookSquare  className='link'/>
            <FaYoutube  className='link'/>
            </div>
