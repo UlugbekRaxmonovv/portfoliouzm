@@ -1,14 +1,76 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   background: transparent;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
   background: rgb(30, 30, 30);
   color: white;
   overflow: hidden;
   overflow-y: scroll;
+}
+
+body.all {
+  background-image: url('https://img.freepik.com/free-photo/view-white-crumpled-paper_1194-7544.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 600vh;
+}
+body.all .disktopMenuList{
+ color: rgb(40, 40, 40);
+ padding-bottom: 0.5rem;
+ border-bottom: 1px solid  rgb(40, 40, 40);
+}
+body.all .disktopMenuList.active{
+  color:  rgb(40, 40, 40) ;
+  border-bottom: 1px solid  rgb(40, 40, 40) ;
+}
+body.all .btnButton{
+  border: 1px solid  rgb(40, 40, 40) ;
+  background-color: yellow;
+}
+body.all .hello{
+  color: black ;
+  font-weight: 300;
+}
+body.all .par{
+  color: black ;
+  font-weight: 400;
+}
+body.all .mainContact{
+  color: black ;
+  font-weight: 300;
+}
+body.all .btn{
+  border: 1px solid  rgb(40, 40, 40) ;
+  background-color: yellow;
+}
+body.all .abot_all p{
+  color: black ;
+  font-weight: 400;
+}
+body.all .abot_all h2 .bh{
+  color: black ;
+  font-weight: 600;
+}
+body.all .project_all p{
+  color: black ;
+  font-weight: 400;
+}
+body.all .contac_link{
+  color: black ;
+  font-weight: 400;
+}
+body.all .submitBtn{
+  background-color: yellow;
+ 
+}
+body.all .link{
+color: rgb(40, 40, 40);
 }

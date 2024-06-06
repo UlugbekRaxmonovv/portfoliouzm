@@ -79,6 +79,10 @@ width: 4rem;
     margin: 0.25rem;
     background-color: rgb(30, 30, 30);
 }
+.btn-all{
+    display: flex;
+    align-items: center;
+}
 
 @media(max-width:650px){
     .logoMenu{
