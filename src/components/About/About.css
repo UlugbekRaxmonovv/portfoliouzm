@@ -25,17 +25,26 @@
     font-size: 30px;
     font-weight: 600;
 }
-.abot_all img{
+.image_sr{
     max-width: 600px;
     width: 100%;
     min-height: 400px;
     height: 100%;
+    overflow: hidden;
+    border-radius:4px;
 }
+.image_sr img{
+    transition: all .2s linear;
+}
+.image_sr img:hover{
+    transform: scale(1.01);
+}
+
 .bty{
     color: white;
     font-size: 18px;
     font-weight: 600;
-    color: aqua;
+    color: yellow;
 }
 .abot_all p{
     max-width: 500px;
@@ -69,7 +78,7 @@
         color: white;
         font-size: 18px;
         font-weight: 600;
-        color: aqua;
+        color: yellow;
         margin-top: 100px;
 
     }

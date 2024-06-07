@@ -19,11 +19,11 @@ const Project = () => {
                         <img src={rasm} alt="" />
                      </div>
                      </div>
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde hic quae neque placeat fugiat assumenda quasi</p>
+                     <p>Up to 10% off Voucher <br /> Javascript</p>
                      <div className="ikon">
                         <div className="ikon_all">
                         
-                            <a href="https://5-month-exem.vercel.app/" className=""><SiVercel /> Vercel</a>
+                            <a href="https://5-month-exem.vercel.app/" className=""><SiVercel /> Link</a>
                         </div>
                         <div className="ikon_all">
                         
@@ -38,11 +38,12 @@ const Project = () => {
                         </div>
                         </div>
                      
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde hic quae neque placeat fugiat assumenda quasi</p>
+                     <p>
+                     Fresh Vegetables Big discount React js</p>
                      <div className="ikon">
                         <div className="ikon_all">
                         
-                            <a href="https://6-month-11-lesson-gamma.vercel.app/" className=""><SiVercel /> Vercel</a>
+                            <a href="https://6-month-11-lesson-gamma.vercel.app/" className=""><SiVercel /> Link</a>
                         </div>
                         <div className="ikon_all">
                         
@@ -56,11 +57,11 @@ const Project = () => {
                         <img src={rasm2} alt="" />
                      </div>
                     </div>
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde hic quae neque placeat fugiat assumenda quasi</p>
+                     <p>Super Flash Sale:  React js RTK.QUERY</p>
                      <div className="ikon">
                         <div className="ikon_all">
                         
-                            <a href="https://7-month-exem.vercel.app/" className=""><SiVercel /> Vercel</a>
+                            <a href="https://7-month-exem.vercel.app/" className=""><SiVercel /> Link</a>
                         </div>
                         <div className="ikon_all">
                         

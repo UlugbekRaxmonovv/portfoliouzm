@@ -71,3 +71,7 @@ body.all .link{
 body.all .logoMenu{
 color: rgb(40, 40, 40);
 }
+body.all p{
+  color:black;
+  font-weight: 300;
+}

@@ -123,6 +123,10 @@ width: 4rem;
     .disktopMenu{
         display: none;
     }
+    .MenuList{
+        cursor: pointer;
+
+    }
 
 }
 

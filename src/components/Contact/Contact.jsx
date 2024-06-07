@@ -74,13 +74,18 @@ const handelSubmit = (e) => {
            <button type='submit' className="submitBtn">
             Submit
            </button>
-           <div className="links">
+        
+            </form>
+            <div className="aloqa">
+                <p>My contact links</p>
+                <div className="links">
            <FaInstagramSquare  className='link'/>
            <a href="https://t.me/Mumusliim"><PiPaperPlaneTiltFill  className='link'/></a>
            <FaFacebookSquare  className='link'/>
            <FaYoutube  className='link'/>
            </div>
-            </form>
+            </div>
+           
            </section>
         </div>
     );
