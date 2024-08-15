@@ -48,6 +48,10 @@
     max-width: 300px;
     width: 100%;
     padding: 0.2rem 0.5rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
 }
 .ikon{
     display: flex;
